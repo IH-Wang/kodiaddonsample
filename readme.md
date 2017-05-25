@@ -29,6 +29,8 @@
 關於 userdata 部分想了解更多，可參考[官網說明](http://kodi.wiki/view/Userdata)。
 
 
+
+
 ## **Skin structure**
 - **skin.kodisample/1080i** - 這是設定各組件 skin 檔的目錄，而 Kodi 可以依照螢幕解析度作分辨，運行在不同的解析度上，所以你也可以建立 NTSC、720p、1080i 等不同解析度的目錄作區分。
 - **skin.kodisample/backgrounds** - 在 skin 裡使用的背景圖片。(optional folder)
@@ -42,6 +44,7 @@
 - **skin.kodisample/fanart.jpg** - a 1280x720 or 1920x1080 jpeg fanart image for your skin。
 - **skin.kodisample/icon.png** - skin icon。
 - **skin.kodisample/LICENSE.txt** - license 文件。
+
 
 
 
@@ -65,17 +68,18 @@
 
 
 
+
 ## **Skin 目錄基本檔案（1080i）**
 - **defaults.xml** - 設定預設組件樣式
-****- **DialogBusy.xml** - (Fill viewport always for solving rendering passes)
-****- **DialogExtendedProgressBar.xml** - (Fill viewport always for solving rendering passes)
-****- **DialogKaiToast.xml** - toast 提示訊息 (Fill viewport always for solving rendering passes)
-****- **DialogMuteBug.xml** - (Fill viewport always for solving rendering passes)
-****- **DialogSeekBar.xml** - (Fill viewport always for solving rendering passes)
-****- **DialogVolumeBar.xml** - (Fill viewport always for solving rendering passes)
-****- **Font.xml** - 字型設定
-****- **Home.xml** - 首頁樣式設定
-****- **includes.xml** - 其他組件 xml 檔，通用常數及變數、組件設定
-****- **Pointer.xml** - 游標樣式設定 (Fill viewport always for solving rendering passes)
-****- **Startup.xml** - kodi 啟動時的 skin 檔
-****- **VideoFullScreen.xml** - 啟動時的 splash 畫面設定
+- **DialogBusy.xml** - (Fill viewport always for solving rendering passes)
+- **DialogExtendedProgressBar.xml** - (Fill viewport always for solving rendering passes)
+- **DialogKaiToast.xml** - toast 提示訊息 (Fill viewport always for solving rendering passes)
+- **DialogMuteBug.xml** - (Fill viewport always for solving rendering passes)
+- **DialogSeekBar.xml** - (Fill viewport always for solving rendering passes)
+- **DialogVolumeBar.xml** - (Fill viewport always for solving rendering passes)
+- **Font.xml** - 字型設定
+- **Home.xml** - 首頁樣式設定
+- **includes.xml** - 其他組件 xml 檔，通用常數及變數、組件設定
+- **Pointer.xml** - 游標樣式設定 (Fill viewport always for solving rendering passes)
+- **Startup.xml** - kodi 啟動時的 skin 檔
+- **VideoFullScreen.xml** - 啟動時的 splash 畫面設定
