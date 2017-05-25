@@ -1,0 +1,12 @@
+<colors>
+	<color name="Black">FF000000</color>
+	<color name="White">FFFFFFFF</color>
+	<color name="Gray">FFA1A1A1</color>
+	<color name="LightGray">80FFFFFF</color>
+	<color name="Pink">FFE4007F</color>
+	<color name="Blue">FF00FFFF</color>
+	<color name="NavyBlue">FF00E1FF</color>
+	<color name="LightBlue">FFA5D7F0</color>
+	<color name="Teal">FF7DBCDE</color>
+	<color name="Orange">FFED851C</color>
+</colors>

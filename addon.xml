@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.ktvstation" version="2.0.0" name="KTV Station" provider-name="I-Heng Wang">
+	<requires>
+		<import addon="xbmc.gui" version="4.0.0"/>
+		<import addon="script.tv.show.next.aired" version="5.0.5"/>
+		<import addon="script.globalsearch" version="1.1.1"/>
+		<import addon="script.xbmc.subtitles" version="3.9.4"/>
+		<import addon="script.artwork.downloader" version="12.0.14"/>
+	</requires>
+	<extension  point="xbmc.gui.skin" defaultresolution="1080i"  defaultresolutionwide="1080i" defaultthemename="Textures.xbt"  effectslowdown="1.00" debugging="false"/>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>Enjoy the multimedia on your NAS!</summary>
+	</extension>
+</addon>

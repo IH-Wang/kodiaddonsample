@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<includes>
+	<include file="defaults.xml" />
+	<!-- CONSTANTS -->
+	<constant name="testConstant"><!-- constant --></constant>
+	<!-- VARIABLES -->
+	<variable name="testVariable">
+		<value><!-- variable --></value>
+	</variable>
+	<!-- INCLUDES -->
+	<include name="testIncludePanel">
+		<control type="panel" id="50">
+			<left>0</left>
+			<top>0</top>
+			<width>100</width>
+			<height>120</height>
+			<onleft>1</onleft>
+			<onright>2</onright>
+			<onup>3</onup>
+			<ondown>4</ondown>
+			<pagecontrol>61</pagecontrol>
+			<scrolltime>200</scrolltime>
+			<orientation>vertical</orientation>
+			<itemlayout height="1000" width="1000">
+				<!-- some control -->
+			</itemlayout>
+		</control>
+	</include>
+</includes>
