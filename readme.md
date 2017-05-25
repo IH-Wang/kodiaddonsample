@@ -3,7 +3,6 @@
 
 
 ## **各環境路徑。(userdata 使用，非 Systemdata)**
-----------
 | **Operative system** | **File path**                                             |
 | -------------------- | --------------------------------------------------------- |
 | Linux                | ~/.kodi/                                                  |
@@ -31,7 +30,6 @@
 
 
 ## **Skin structure**
-----------
 - **skin.kodisample/1080i** - 這是設定各組件 skin 檔的目錄，而 Kodi 可以依照螢幕解析度作分辨，運行在不同的解析度上，所以你也可以建立 NTSC、720p、1080i 等不同解析度的目錄作區分。
 - **skin.kodisample/backgrounds** - 在 skin 裡使用的背景圖片。(optional folder)
 - **skin.kodisample/colors** - 在目錄建一個 defaults.xml 定義 skin 裡會使用到的顏色。(optional folder)
@@ -39,7 +37,7 @@
 - **skin.kodisample/fonts** - 字型檔存放目錄。
 - **skin.kodisample/language** - 多國語言目錄字串定義，string.po 優先讀取，string.xml 其次。
 - **skin.kodisample/media** - 多媒體檔案存放目錄。
-- **skin.kodisample/addon.xml** - skin.kodisample addon 的描述定義檔。 
+- **skin.kodisample/addon.xml** - skin.kodisample addon 的描述定義檔。
 - **skin.kodisample/changelog.txt** - skin.kodisample addon 版本更新記錄。
 - **skin.kodisample/fanart.jpg** - a 1280x720 or 1920x1080 jpeg fanart image for your skin。
 - **skin.kodisample/icon.png** - skin icon。
@@ -48,7 +46,6 @@
 
 
 ## **自定義 skin 描述檔（addon.xml）**
-----------
     <?xml version="1.0" encoding="UTF-8"?>
     <addon id="skin.kodisample" version="1.0.0" name="KODI Sample" provider-name="I-Heng Wang">
             <requires>
@@ -69,7 +66,6 @@
 
 
 ## **Skin 目錄基本檔案（1080i）**
-----------
 - **defaults.xml** - 設定預設組件樣式
 ****- **DialogBusy.xml** - (Fill viewport always for solving rendering passes)
 ****- **DialogExtendedProgressBar.xml** - (Fill viewport always for solving rendering passes)
@@ -83,4 +79,3 @@
 ****- **Pointer.xml** - 游標樣式設定 (Fill viewport always for solving rendering passes)
 ****- **Startup.xml** - kodi 啟動時的 skin 檔
 ****- **VideoFullScreen.xml** - 啟動時的 splash 畫面設定
-
