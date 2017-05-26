@@ -1,5 +1,6 @@
 # A KODI service structure sample
 當 Kodi 啟動時， Service addons 會自動啟動。
+詳細可以參考[官網](http://kodi.wiki/view/Service_add-ons)
 
 ## **自定義 skin 描述檔（addon.xml）**
     <?xml version="1.0" encoding="UTF-8"?>
